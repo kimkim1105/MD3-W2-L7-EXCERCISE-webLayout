@@ -1,0 +1,38 @@
+.nav{
+    background-color: dimgrey;
+    height: 50px;
+    color: white;
+}
+.nav ul li{
+    float: left;
+    position: relative;
+    width: 70px;
+    list-style-type: none;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav ul li:hover{
+    background-color: black;
+}
+.left{
+    float: left;
+    width: 20%;
+    color: blue;
+}
+.left li{
+    list-style-type: none;
+}
+.right{
+    float: left;
+    width: 80%;
+}
+.footer{
+    clear: both;
+    color: white;
+    background-color: dimgrey;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
